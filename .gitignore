@@ -3,3 +3,5 @@ node_modules/
 *.js
 !spec/**/*.js
 .npmrc
+*.iml
+package-lock.json
