@@ -19,10 +19,10 @@ module.exports = function objectsParser(object, keys, values){
 3) Your function has to return an object with the following structure:
 ```javascript
 {
-    foundValues = [], 
-    foundKeys = [], 
-    notFoundKeys = [], 
-    notFoundValues = [],
+    foundValues: [], 
+    foundKeys: [], 
+    notFoundKeys: [], 
+    notFoundValues: [],
 }
 ```
 If `keys` or `values` are undefind - empty array should be returned for found and not found entries.
