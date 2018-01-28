@@ -1,6 +1,12 @@
-# PO Principles
+# PO Principles Practical Task
 
-## Case description
+## Overview
+
+You'll be requested to create a system of of classes that will implement the Page Object pattern.
+Using the created PO you'll need to 2 test cases. See the cases description in the [Case description](#case_description)
+
+
+## <a id="case_description"></a>Case description
 
 ---
 
