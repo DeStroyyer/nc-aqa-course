@@ -5,3 +5,4 @@ node_modules/
 .npmrc
 *.iml
 package-lock.json
+!po_example/**/*.js
