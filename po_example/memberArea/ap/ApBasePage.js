@@ -1,4 +1,4 @@
-const BasePage = require('../../BasePage').BasePage;
+const BasePage = require('../../BasePage');
 
 class ApBasePage extends BasePage {
 }

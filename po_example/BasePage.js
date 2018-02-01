@@ -1,14 +1,22 @@
 class BasePage {
-  fillTextField(text, field) {
+  constructor() {
+    this._pageName = '';
+  }
+
+  _fillTextField(text, field) {
     console.log(`Input '${text}' in the ${field}.`);
   }
 
-  clickElement(element) {
+  _clickElement(element) {
     console.log(`Click ${element}.`);
   }
 
-  getTextFromElement(element) {
+  _getTextFromElement(element) {
     console.log(`Getting text from ${element}.`);
+  }
+
+  _pageIsDisplayed() {
+    console.log(`${this._pageName} page is displayed`);
   }
 }
 
