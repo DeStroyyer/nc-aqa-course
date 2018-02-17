@@ -1,5 +1,5 @@
 const CmsBasePage = require('./CmsBasePage');
-const Header = require('../partials/Header');
+const DashboardPage = require('../ap/DashboardPage');
 
 class HomePage extends CmsBasePage {
   static visit() {
@@ -11,9 +11,13 @@ class HomePage extends CmsBasePage {
   constructor() {
     super();
     this._pageName = 'Home';
-    this.header = new Header();
-
     this._pageIsDisplayed();
+  }
+
+  signIn(username, password) {
+    this._header.signIn(username, password);
+
+    return new DashboardPage();
   }
 }
 

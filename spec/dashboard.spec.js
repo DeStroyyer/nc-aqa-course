@@ -7,7 +7,7 @@ describe('Dashboard page.', () => {
   beforeAll(() => homePage = HomePage.visit());
 
   it(`[C3090999] User's first and last name are displayed on the page.`, () => {
-    const dashboardPage = homePage.header.signIn(testData.username, testData.password);
+    const dashboardPage = homePage.signIn(testData.username, testData.password);
 
     expect(dashboardPage.getWelcomeMessage())
       .toBe(`Welcome ${testData.firstName} ${testData.lastName}`);

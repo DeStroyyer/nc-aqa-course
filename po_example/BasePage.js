@@ -1,18 +1,9 @@
+const Header = require('./memberArea/partials/Header');
+
 class BasePage {
   constructor() {
     this._pageName = '';
-  }
-
-  _fillTextField(text, field) {
-    console.log(`Input '${text}' in the ${field}.`);
-  }
-
-  _clickElement(element) {
-    console.log(`Click ${element}.`);
-  }
-
-  _getTextFromElement(element) {
-    console.log(`Getting text from ${element}.`);
+    this._header = new Header()
   }
 
   _pageIsDisplayed() {
