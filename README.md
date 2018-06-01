@@ -42,7 +42,7 @@ exports.config = {
 
 ## Further configuration
 
-1. Add `baseUrl: 'http://localhost:4200'` to config file. This will allow yu to navigate to this url by default.
+1. Add `baseUrl: 'http://localhost:4200'` to config file. This will allow you to navigate to this url by default.
 2. Add jasmine configuration to config
 ```js
 jasmineNodeOpts: {
@@ -51,7 +51,7 @@ jasmineNodeOpts: {
   },
 ```
 
-## Create your first test
+## Create your first real test
 
 0. Remove previousely created `test.spec.js` file.
 1. Add new spec file `dashboard.spec.js` with the following content
