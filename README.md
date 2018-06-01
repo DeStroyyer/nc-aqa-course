@@ -42,7 +42,7 @@ exports.config = {
 
 ## Further configuration
 
-1. Add `baseUrl: 'http:localhost:4200'` to config file. This will allow yu to navigate to this url by default.
+1. Add `baseUrl: 'http://localhost:4200'` to config file. This will allow yu to navigate to this url by default.
 2. Add jasmine configuration to config
 ```js
 jasmineNodeOpts: {
