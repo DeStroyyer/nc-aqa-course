@@ -7,8 +7,9 @@
 or
 `git clone https://github.com/tymfear/tour-of-heroes.git`
 
-2. Launch application with `npm start`
-3. Check application is running on address `localhost:4200`
+2. Install dependencies with `npm i` 
+3. Launch application with `npm start`
+4. Check application is running on address `localhost:4200`
 
 ## Initiate project
 1. Initiate a project with `npm init -y`
